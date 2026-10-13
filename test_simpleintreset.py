@@ -1,6 +1,7 @@
-from simpleintreset import SimInt
+from simpleintreset import simInt
 
 def test_simpleintreset():
-    assert SimInt(20000,8,12) == 19200
+ assert simInt(20000, 8, 12) == 19200
+
 def test_simpleintreset2():
-    assert SimInt(10000,7,0) == 0
+      assert simInt(10000, 7, 0) == 0
